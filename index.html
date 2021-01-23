@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitirme Projeleri Veritabanı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="users">
+        <input class="search" placeholder="Baş Harfler Büyük İ,Ö,Ü " />
+        <br>
+        <button class="sort" data-sort="proje">
+            Projeye Göre Sırala
+          </button>
+        <button class="sort" data-sort="adi">
+          Ada Göre Sırala
+        </button>
+        <button class="sort" data-sort="yil">
+            Yıla Göre Sırala
+          </button>
+          <button class="sort" data-sort="uni">
+            Üniversiteye Göre Sırala
+          </button>
+          <button class="sort" data-sort="bolum">
+            Bölüme Göre Sırala
+          </button>
+          <button class="sort" data-sort="danisman">
+            Danışmana Göre Sırala
+          </button>
+          
+          
+        <table>
+          <tbody class="list">
+              <!-- projenizi ekleyin -->
+            <tr>
+                <td class="proje">Projenizin Adı</td>
+                <td class="adi">Adınız Soyadınız</td>
+                <td class="yil">Yıl</td>
+                <td class="uni">Üniversiteniz</td>
+                <td class="bolum">Bölümünüz</td>
+                <td class="danisman">Danışmanınız</td>
+              </tr>
+
+              <!-- eklenmiş projeler -->
+            <tr>
+              <td class="proje">Bitirme Projeleri Veritabanı</td>
+              <td class="adi">Emre Keskin</td>
+              <td class="yil">2020</td>
+              <td class="uni">İskenderun Teknik Üniversitesi</td>
+              <td class="bolum">Bilgisayar Mühendisliği</td>
+              <td class="danisman">Levent Karacan</td>
+            </tr>
+            
+          </tbody>
+        </table>
+        
+</div>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
+      <script src="script.js"></script>
+
+</body>
+</html>
+
